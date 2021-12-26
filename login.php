@@ -12,7 +12,6 @@
     <div id="container">
         <h1>Login</h1>
         <form action="login.php" method="post">
-            <?php include 'errors.php'; ?>
             <div class="form-group">
                 <label for="username">Username</label>
                 <input type="text" name="username" class="form-control" value="<?php echo $username; ?>">

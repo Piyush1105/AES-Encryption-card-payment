@@ -1,6 +1,7 @@
-<?php include 'card_details.php'?>
+<?php include 'card_details.php' ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <title>Payment</title>
 </head>
+
 <body>
     <div class="container">
         <h1>Card Details</h1>
@@ -34,16 +36,22 @@
                     </div>
                 </div>
             </div>
-            <button type="submit" class="btn btn-success"><a href="./complete_payment.php">Submit Payment</a></button>
-            
+            <button type="submit" class="btn btn-success">Submit Payment</button>
+            <button type="button" class="btn btn-danger"><a href='home.php'>Cancel</a> </button>
 
     </div>
 
     <style>
-        a{
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        button a:hover {
             text-decoration: none;
             color: white;
         }
     </style>
 </body>
+
 </html>

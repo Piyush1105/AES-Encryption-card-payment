@@ -8,8 +8,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Welcome User <?php echo $_SESSION['username']; ?></h1>
-    <a href="index.php?logout='1'" style="color: red;">logout</a>
+    <h1>Welcome User</h1>
+    <a href="login.php?logout='1'" style="color: red;">logout</a>
     
     <button><a href='./payment.php'>Make Payment</a></button>
 </body>
