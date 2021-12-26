@@ -1,5 +1,8 @@
 <?php
 
+// Report all PHP errors
+error_reporting(0);
+
 $email = '';
 $password = '';
 $username = '';

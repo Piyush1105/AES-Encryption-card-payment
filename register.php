@@ -1,6 +1,7 @@
 <?php include 'server.php' ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <title>Register</title>
 </head>
+
 <body>
     <div id="container">
         <h1>Register</h1>
@@ -33,6 +35,14 @@
             </div>
         </form>
         <p>Already a member? <a href="login.php">Login</a></p>
+
+        <style>
+            #container {
+                width: 400px;
+                margin: 0 auto;
+            }
+        </style>
     </div>
 </body>
+
 </html>

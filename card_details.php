@@ -1,4 +1,6 @@
 <?php
+// Report all PHP errors
+error_reporting(0);
 
 $card_holder_name = '';
 $card_number = '';
@@ -48,9 +50,9 @@ $card_number1 = enc_dec('encrypt', $card_number);
 $card_expiry1 = enc_dec('encrypt', $card_expiry);
 $card_cvv1 = enc_dec('encrypt', $card_cvv);
 
-echo $card_number1 . "<br>";
-echo $card_expiry1 . "<br>";
-echo $card_cvv1 . "<br>";
+// echo $card_number1 . "<br>";
+// echo $card_expiry1 . "<br>";
+// echo $card_cvv1 . "<br>";
 
 
 //get values from card_details table to verify
