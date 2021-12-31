@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <title>Payment</title>
 </head>
-
 <body>
     <div class="container">
         <h1>Card Details</h1>
@@ -38,9 +37,7 @@
             </div>
             <button type="submit" class="btn btn-success">Submit Payment</button>
             <button type="button" class="btn btn-danger"><a href='home.php'>Cancel</a> </button>
-
     </div>
-
     <style>
         a {
             text-decoration: none;
